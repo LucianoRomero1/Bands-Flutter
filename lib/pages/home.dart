@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
       key: UniqueKey(),
       direction: DismissDirection.startToEnd,
       onDismissed: (direction){
-        print('name: ${band.name}');
+        print('band name: ${band.name}');
         //Llamar el borrado backend
       },
       background: Container(
